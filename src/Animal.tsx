@@ -16,7 +16,7 @@ export default function Animal({icone, nome, peso, extincao}: AnimalProps){
             ) : (
                 <div className="peso">Desconhecido</div>
             )}
-            {extincao && <div className="extincao">{extincao}</div>}
+            {extincao && <div className="extincao">Em extincao!</div>}
         </div>
     )
 }

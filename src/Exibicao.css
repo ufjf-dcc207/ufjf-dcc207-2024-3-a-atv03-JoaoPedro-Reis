@@ -5,6 +5,7 @@
     grid-template-areas: 
     "local inicio fim"
     "animais animais animais";
+    box-shadow: 0.1em 0.2em 0.2em;
 
     .inicio{
         color: darkgreen;
