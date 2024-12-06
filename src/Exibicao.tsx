@@ -8,9 +8,9 @@ interface ExibicaoProps {
 export default function ({abertura:inicio, fechamento:fim, cercado:local}: ExibicaoProps){
     return (
     <div className="exibicao">
-        <div className="inicio">{inicio.toLocaleDateString()}</div>
-        <div className="fim">{fim.toLocaleDateString()}</div>
-        <div className="local">{local}</div>
+        <div className="inicio">Abertura: {inicio.toLocaleDateString()}</div>
+        <div className="fim">Fechamento: {fim.toLocaleDateString()}</div>
+        <div className="local">Cercado: {local}</div>
     </div>
     );
 }
